@@ -1,0 +1,5 @@
+DELETE FROM "ProjectInfo"."SiteCharacteristics"
+	WHERE project_id = 'G16-ZTRK-04';
+
+DELETE FROM public.tickets
+	WHERE msgdate  ~* '5\/.*\/23'
